@@ -3,8 +3,8 @@
 Node application using Weaviate Database Docker Compose
 Type `node index.js` in the console to start
 
-Source images: `./img`
-To query images: `./test`
+Image database folder: `./img`
+To query image folder: `./test`
 
 Search result: `result.jpg`
 
@@ -22,8 +22,14 @@ As of 1/5/2023, using:
 - openai disabled
 - docker compose
 
+**Install**
+```
+npm init -y
+npm i weaviate-ts-client
+```
+
 
 **To Use**
 1. Upload image into `./img` folder as a search database
 2. Upload image into `./test` folder as image to query for ease of use
-3. Run `node index.js` in console to start application and search"# weaviate-image-search" 
+3. Run `node index.js` in console to start application and search, ie `test.jpg`
