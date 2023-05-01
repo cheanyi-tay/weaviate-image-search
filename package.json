@@ -1,7 +1,7 @@
 {
   "name": "weaviate-search-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Vector reverse image search**",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,5 +12,9 @@
   "dependencies": {
     "graphql": "^16.6.0",
     "weaviate-ts-client": "^1.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
