@@ -1,4 +1,5 @@
 **Vector reverse image search**
+
 Node application using Weaviate Database Docker Compose
 Type `node index.js` in the console to start
 
@@ -10,7 +11,7 @@ Search result: `result.jpg`
 **Pre-requisites**
 - Node
 - Weaviate Docker
-Get Weaviate docker from weaviate's official website: https://weaviate.io/developers/weaviate/installation/docker-compose
+Get Weaviate docker from Weaviate's official website: https://weaviate.io/developers/weaviate/installation/docker-compose
 
 As of 1/5/2023, using:
 - v1.18.4
