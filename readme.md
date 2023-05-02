@@ -32,4 +32,5 @@ npm i weaviate-ts-client
 **To Use**
 1. Upload image into `./img` folder as a search database
 2. Upload image into `./test` folder as image to query for ease of use
-3. Run `node index.js` in console to start application and search, ie `test.jpg`
+3. Run weaviate docker container
+4. Run `node index.js` in console to start application and search, ie `test.jpg`
